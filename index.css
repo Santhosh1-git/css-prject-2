@@ -1,0 +1,363 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+body{
+    background-color: black;
+}
+
+
+
+#im{
+    opacity: 0.5;
+}
+#header {
+    position: fixed;
+   
+    a{
+        display: block;
+        padding-top: 40px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 0px;
+        text-decoration: none;
+        color: white; 
+        background-color:#222;  
+        font-size: smaller;
+        text-align: center;
+    }
+    .en{
+        padding-top: 25px;
+              
+    }
+    .en:hover{
+        background-color: #222;
+    }
+    #home{
+        color: rgb(236, 234, 234);
+        background-color: black;
+    }
+    #home:hover{
+        color: black;
+        background-color: rgb(180, 178, 178);
+
+    }
+    a:hover{
+        background-color: black;
+        
+        
+    }
+    .hom{
+      position: relative;
+      top: -30px;
+      left: -40px;
+      font-size: 30px;
+    }
+    .about{
+        position: relative;
+      top: -30px;
+      left: -45px;
+      font-size: 30px;
+    }
+    .photo{
+        position: relative;
+        top: -30px;
+        left: -52px;
+        font-size: 30px;
+    }
+    .contact{
+        position: relative;
+        top: -30px;
+        left: -55px;
+        font-size: 30px;
+    }
+    
+}
+#img{
+    margin-right: 140px;
+    h1{
+    color: aliceblue;
+    text-align: center;
+    padding-left: 230px;
+    padding-top: 70px;
+    font-size: 65px;
+    font-weight: 100;
+    }
+
+ h4{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left:200px ;
+    font-weight: lighter;
+
+   }
+   img{
+    margin-left: 230px;
+    margin-top: 10px;
+   }
+   h2{
+    
+    color: aliceblue;
+    margin-top: 100px;
+    margin-left:250px ;
+    font-weight: lighter;
+    font-size: 200;
+   }
+   h3{
+    color: rgb(97, 96, 96);
+    margin-top: 20px;
+    margin-left:250px ;
+    
+   }
+   p{
+    color: rgb(97, 96, 96);
+    margin-top: 20px;
+    margin-left:250px ;
+    line-height: 25px;
+
+   }
+   #my{
+    color: aliceblue;
+    margin-top: 40px;
+    margin-left:250px ;
+    font-weight: inherit;
+    font-size: 100;
+   }
+   h5{
+    color:rgb(97, 96, 96) ;
+    margin-top: 20px;
+    margin-left:250px ;
+    letter-spacing: 5px;
+    }
+  
+   .line1,.line2,.line3{
+    height: 30px;
+    background: white;
+    margin-top: 20px;
+    margin-left:250px;
+   }
+   .line1 p,.line2 p,.line3 p{
+    height: 30px;
+    background-color: rgb(180, 178, 178);
+    margin-left:0px;
+    
+   }
+   .line1 p{
+    width: 95%;
+   }
+   .line2 p{
+    width: 85%;
+   }
+   .line3 p{
+    width: 70%;
+   }
+}
+    .bar{
+        margin-right: 140px;
+        margin-left:250px;
+        background-color:whitesmoke ;
+        padding:50px 30px 60px 80px;
+        text-align: center;
+        h5{
+            color: #222;
+        }
+        
+        .par{
+            float: left;
+            padding-right: 110px;
+            padding-left: 20px;
+            color: rgb(97, 96, 96);
+            .sp{
+                font-size: larger;
+                color: #222;
+            }
+            
+            
+        }
+        
+}
+       
+    
+   #dow{
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left:250px;
+    color:black;
+    background-color:aliceblue;
+    padding: 15px 20px;
+    text-align: center;
+    
+    
+   }
+
+h2{
+    color: aliceblue;
+    margin-top: 60px;
+    margin-left:250px;
+}
+.table{
+    color: white;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    opacity: 0.5;
+    margin-right: 10px;
+    
+    
+    
+    .tabl1{
+        
+        background-color: rgb(70, 68, 68);
+        color: white;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        font-size: 30px;
+        
+    }
+    .cont{
+        color: black;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid silver;
+        h1{
+            color: #222;
+            font-weight: 100;
+        }
+        p{
+            color: #000;
+        }
+    }
+    .lab{
+        padding-top: 45px;
+        padding-bottom: 45px;
+        border-bottom: 1px solid silver;
+        a{
+            color: black;
+            text-decoration: none;
+            padding: 15px;
+
+        }
+        a:hover{
+            background-color: black;
+            color: white;
+            
+        }
+        
+
+    }
+
+    
+}
+.table:hover{
+    opacity:0.9;
+}
+#top{
+    display: flex;
+    margin-left: 250px;
+    margin-right: 160px;
+    margin-top: 60px;
+
+}
+#rep{
+        margin-top: 40px;
+        margin-left: 250px;
+        margin-right: 160px;
+    color: white;
+    h3{
+        font-weight: lighter;
+        font-size: 20px;
+    }
+    img{
+        
+        border: 1px;
+        border-radius: 40px;
+        float: left;
+        margin-right: 12px;
+        
+    }
+    .jon{
+        font-size:15px;
+    }
+     p{
+        margin-top: 10px;
+        font-size:17px;
+        margin-bottom: 15px;
+        color: rgb(110, 109, 109);
+        
+        
+     }
+}
+#heading{
+    h1,p{
+        font-size:30px;
+        font-weight: 100;
+        margin-left: 250px;
+        margin-right: 160px;
+    }
+}
+#photos{
+        margin-left: 250px;
+        margin-right: 160px;
+        display: flex;
+        
+        img{
+            display: block;
+            padding-bottom: 10px;
+            padding-right: 15px;
+        }
+    
+}
+#me{
+    margin-left: 250px;
+    margin-right: 160px;
+    color: aliceblue;
+    i{
+        font-size: 30px;
+        margin-right: 25px;
+    }
+    p{
+        font-size:17px;
+        color: rgb(110, 109, 109); 
+    }
+    h1{
+        font-weight: lighter;
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+    input{
+        height: 50px;
+        width: 100%;
+        font-size: 15px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+        text-align:start;
+
+    }
+    a{
+        text-transform: uppercase;
+        background-color: #e0dfdf;
+        color: #000;
+        text-decoration: none;
+        padding: 15px 30px;
+        font-size: 15px;
+        
+       i{
+        font-size: 15px;
+        margin-right: 1px;
+       }
+
+    }
+    i{
+        font-size: 25px;
+        margin-right: 2px;
+        margin-bottom: 20px;
+    }
+    #ww{
+        color: #797878;
+        text-decoration: underline;
+        margin-bottom: 40px;
+    }
+        
+}
